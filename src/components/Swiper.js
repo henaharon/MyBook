@@ -8,17 +8,16 @@ export default class extends Component {
     const scenes = [
       {
         id: 11,
-        text: 'Jenny walks with her tiger friend Lila to a new adventure',
         imgSource: require('./img/front_cover_2.png'),
       },
       {
         id: 1,
-        text: 'Jenny walks with her tiger friend Lila to a new adventure',
+        text: 'ג׳ני יוצאת להרפתקה עם לילו הטיגריס, החבר הכי טוב שלה',
         imgSource: require('./img/1.jpeg'),
       },
-      {id: 2, text: 'scene2', imgSource: require('./img/2.jpg')},
-      {id: 3, text: 'scene3', imgSource: require('./img/3.jpg')},
-      {id: 5, text: 'scene4', imgSource: require('./img/back_side.png')},
+      {id: 2, text: 'סצנה2', imgSource: require('./img/2.jpg')},
+      {id: 3, text: 'סצנה3', imgSource: require('./img/3.jpg')},
+      {id: 5, text: 'סצנה4', imgSource: require('./img/back_side.png')},
     ];
 
     return (
@@ -83,6 +82,7 @@ const styles = {
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
+    width: '95%',
   },
 
   image: {
