@@ -63,6 +63,7 @@ export default class extends Component {
 const styles = {
   container: {
     flex: 1,
+    backgroundColor: 'white',
   },
 
   imgWrapper: {
